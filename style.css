@@ -1,0 +1,103 @@
+body {
+    background-color: #f4f4f4;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height:1.6em;
+    margin:0px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#top-header {
+    background-color:#EA1646;
+    color: #fff;
+    margin-bottom:-16px;
+}
+
+nav {
+background-color: #170420;
+color: #fff;
+}
+
+nav ul {
+padding: 10px;
+list-style-type: none;
+}
+
+nav li {
+display:inline;
+position:relative;
+}
+
+nav a {
+color: #fff;
+text-decoration:none;
+font-size:18px;
+padding-right:15px;
+}
+
+#showcase {
+    background-image:url(bloodmoon.png);
+    background-position: center right;
+    min-height:300px;
+    margin-bottom:30px;
+    text-align:center;
+}
+
+#showcase h1 {
+    color:#fff;
+    font-size:50px;
+    line-height:1.6em;
+    padding-top:30px;
+}
+
+#main {
+    float:left;
+    width:70%;
+    padding: 0 30px;
+    box-sizing:border-box;
+}
+
+#sidebar {
+    float:right;
+    width:30%;
+    background:#EA1646;
+    color:#fff;
+    padding:10px;
+    box-sizing:border-box;
+}
+
+#main-footer {
+    background:#170420;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+}
+
+img {
+    height:40px;
+    width:40px;
+    margin:10px;
+    vertical-align:middle;
+}
+
+span {
+    color:white;
+}
+
+#location {
+    width:400px;
+    height:400px;
+}
+
+#round {
+    border-radius:50%;
+    width:125px;
+    height:125px;
+    overflow:hidden;
+}
