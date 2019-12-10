@@ -1,0 +1,116 @@
+/**
+Page: stylesheet.css
+Author: Elmass El Mokaddem
+Description: contains styling elements
+
+Revision history:
+0.1   01-11-2019   Elmass El Mokaddem   Initial Version
+**/
+
+body {
+    background-color:#FBEDBE;
+    color:#771120;
+    font-size:13px;
+    font-family:sans-serif;
+}
+
+h1,h2 {
+    color:#BBCFFF;
+}
+
+nav ul img {
+    width:200px;
+    height:100px;
+    float:right;
+}
+
+nav {
+background-color:#FF0000;
+}
+
+nav ul {
+margin:0px;
+padding:0px;
+overflow:hidden;
+list-style-type:none;
+}
+
+nav ul li {
+float:left;
+margin-left: 20px;
+}
+
+nav ul li a {
+display:block;
+padding:25px;
+padding-top:-20;
+background-color:#FF0000;
+color:#FFFFFF;
+text-decoration:none;
+height:50px;
+width:150px;
+}
+
+.center {
+    text-align:center;
+}
+
+.left {
+    text-align:left;
+}
+
+.right {
+    text-align:right;
+}
+
+.textleft {
+    display:inline-block;
+    width:-300px;
+    height:-300px;
+    position:absolute;
+}
+
+.textright {
+    display:inline-block;
+    width:300px;
+    height:300px;
+    text-align:left;
+    margin-left:-900px;
+}
+
+#extraright {
+    margin-left:-1300px;
+}
+
+.content {
+    position:fixed;
+}
+
+.ralign {
+    text-align:right;
+}
+
+table,tr,td {
+    border-collapse:collapse;
+    border:3px #CCBB63 solid;
+}
+tr:nth-child(even) {
+    color:white;
+    background-color:black;
+}
+
+block {
+    font-size: 18px;
+    background-color:#CCBB63;
+}
+
+.image {
+    overflow:auto;
+    position:fixed;
+    margin-left:300px;
+    margin-top:-200px;
+}
+
+a:hover {
+    color:#FFFF00;
+}
