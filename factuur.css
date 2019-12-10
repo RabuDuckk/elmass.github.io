@@ -1,0 +1,55 @@
+h1 {
+    font-size:40px;
+    float:right;
+    margin-right:300px;
+}
+
+img {
+    width:150px;
+    height:150px;
+}
+
+table {
+    font-size:21px;
+    width:100%;
+    border-collapse:collapse;
+    padding:auto;
+    margin:auto;
+}
+
+td {
+    width:100px;
+}
+
+.bold {
+    text-decoration:underline;
+}
+
+.blue {
+    text-align:right;
+    color:blue;
+}
+
+.right {
+    text-align:right;
+}
+
+#red {
+    color:red;
+}
+
+.middle {
+    text-align:center;
+}
+
+#blue {
+    color:blue;
+}
+
+#block {
+    background-color:grey;
+}
+
+.white {
+    color:white;
+}
