@@ -13,13 +13,13 @@ body {
 }
 
 #top-header {
-    background-color:#EA1646;
+    background-color:#23B5FF;
     color: #fff;
     margin-bottom:-16px;
 }
 
 nav {
-background-color: #170420;
+background-color: #004467;
 color: #fff;
 }
 
@@ -65,14 +65,14 @@ padding-right:15px;
 #sidebar {
     float:right;
     width:30%;
-    background:#EA1646;
+    background:#23B5FF;
     color:#fff;
     padding:10px;
     box-sizing:border-box;
 }
 
 #main-footer {
-    background:#170420;
+    background:#004467;
     color:#fff;
     text-align:center;
     padding:20px;
