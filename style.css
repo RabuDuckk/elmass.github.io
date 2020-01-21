@@ -101,3 +101,7 @@ span {
     height:125px;
     overflow:hidden;
 }
+
+nav a:hover {
+    color:#000000;
+}
